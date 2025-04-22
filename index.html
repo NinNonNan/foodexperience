@@ -1,93 +1,113 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Esperienze Culinarie Siciliane</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ricette Golose</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Esperienze di Food in Sicilia</h1>
-    <p>Scopri i sapori autentici della tradizione siciliana</p>
-  </header>
 
-  <main>
-    <!-- Paste di mandorle -->
-    <div class="offer">
-      <img src="images/image1.jpg" alt="Paste di mandorle">
-      <h2>Paste di mandorle & liquori siciliani – €65,00</h2>
-      <p>Dolcetti artigianali e liquori tradizionali per un assaggio intenso della Sicilia.</p>
-      <details>
-        <summary>Scopri di più</summary>
-        <p>Vieni a scoprire il vero sapore delle paste di mandorla siciliane, preparate a mano secondo la tradizione con mandorle locali e zucchero di canna. Accompagnate da due liquori artigianali, questa esperienza ti trasporterà nel cuore dell'isola.</p>
-      </details>
-      <a class="whatsapp-button" href="https://wa.me/393491234567?text=Vorrei%20prenotare%20l'esperienza%20Paste%20di%20mandorle%20e%20liquori" target="_blank">📱 Prenota su WhatsApp</a>
-    </div>
+<header>
+    <h1>Ricette Golose</h1>
+    <p>Scopri ricette dolci e salate</p>
+</header>
 
-    <!-- Pane cunzato -->
-    <div class="offer">
-      <img src="images/image1.jpg" alt="Pane cunzato">
-      <h2>Pane cunzato & vino rosso artigianale – €40,00</h2>
-      <p>Il panino della tradizione con ingredienti freschi e saporiti.</p>
-      <details>
-        <summary>Scopri di più</summary>
-        <p>Un'esperienza rustica e autentica con il famoso pane cunzato, condito con olio d'oliva, pomodori secchi, acciughe e formaggio locale. Il tutto accompagnato da un rosso corposo prodotto nel territorio.</p>
-      </details>
-      <a class="whatsapp-button" href="https://wa.me/393491234567?text=Vorrei%20prenotare%20l'esperienza%20Pane%20cunzato%20e%20vino%20rosso" target="_blank">📱 Prenota su WhatsApp</a>
-    </div>
+<nav>
+    <a href="#index">Indice</a>
+    <a href="#ricetta-dolci">Dolci</a>
+    <a href="#ricetta-salate">Salate</a>
+</nav>
 
-    <!-- Pasta al pesto trapanese -->
-    <div class="offer">
-      <img src="images/image1.jpg" alt="Pasta al pesto trapanese">
-      <h2>Pasta al pesto trapanese & vino locale – €55,00</h2>
-      <p>Pesto fresco con mandorle e basilico, un'esplosione di sapori.</p>
-      <details>
-        <summary>Scopri di più</summary>
-        <p>Gusta la tipica pasta con il pesto alla trapanese: pomodori freschi, basilico, mandorle tostate e pecorino. L'esperienza si completa con un calice di vino bianco aromatico locale.</p>
-      </details>
-      <a class="whatsapp-button" href="https://wa.me/393491234567?text=Vorrei%20prenotare%20l'esperienza%20Pasta%20al%20pesto%20trapanese" target="_blank">📱 Prenota su WhatsApp</a>
-    </div>
+<div class="container">
 
-    <!-- Frutta martorana -->
-    <div class="offer">
-      <img src="images/image1.jpg" alt="Frutta martorana">
-      <h2>Frutta martorana & liquore tipico – €85,00</h2>
-      <p>Dolcezza e arte si fondono nei frutti in pasta di mandorle.</p>
-      <details>
-        <summary>Scopri di più</summary>
-        <p>Una degustazione che è anche uno spettacolo visivo: la frutta martorana, creata a mano da maestri pasticceri, viene servita con un pregiato liquore locale. Perfetta per chi vuole immergersi nell'arte dolciaria siciliana.</p>
-      </details>
-      <a class="whatsapp-button" href="https://wa.me/393491234567?text=Vorrei%20prenotare%20l'esperienza%20Frutta%20martorana" target="_blank">📱 Prenota su WhatsApp</a>
-    </div>
+    <section id="index">
+        <h2>Indice delle Ricette</h2>
+        <ul id="index-list" class="index">
+            <!-- Le ricette vengono caricate dinamicamente qui -->
+        </ul>
+    </section>
 
-    <!-- Pasta c'anciova -->
-    <div class="offer">
-      <img src="images/image1.jpg" alt="Pasta c'anciova">
-      <h2>Pasta c'anciova – €50,00</h2>
-      <p>Tradizione popolare siciliana con acciughe e pangrattato.</p>
-      <details>
-        <summary>Scopri di più</summary>
-        <p>Un piatto dal sapore deciso: pasta con acciughe, aglio, olio d’oliva e pangrattato tostato. Un'autentica esperienza della cucina povera siciliana, amata da generazioni.</p>
-      </details>
-      <a class="whatsapp-button" href="https://wa.me/393491234567?text=Vorrei%20prenotare%20l'esperienza%20Pasta%20c'anciova" target="_blank">📱 Prenota su WhatsApp</a>
-    </div>
+    <section id="ricetta-dolci">
+        <h2>Ricette Dolci</h2>
+        <div id="dolci-recipes">
+            <!-- Le ricette dolci vengono caricate dinamicamente qui -->
+        </div>
+    </section>
 
-    <!-- Cannolo party -->
-    <div class="offer">
-      <img src="images/image1.jpg" alt="Cannolo party">
-      <h2>Cannolo party – €55,00</h2>
-      <p>Un laboratorio dolce dove ogni partecipante crea il proprio cannolo.</p>
-      <details>
-        <summary>Scopri di più</summary>
-        <p>Divertimento e golosità: partecipa a un laboratorio per imparare a farcire e decorare cannoli siciliani. Concludi con una degustazione e scopri tutti i segreti del dolce più famoso dell’isola.</p>
-      </details>
-      <a class="whatsapp-button" href="https://wa.me/393491234567?text=Vorrei%20prenotare%20il%20Cannolo%20Party" target="_blank">📱 Prenota su WhatsApp</a>
-    </div>
-  </main>
+    <section id="ricetta-salate">
+        <h2>Ricette Salate</h2>
+        <div id="salate-recipes">
+            <!-- Le ricette salate vengono caricate dinamicamente qui -->
+        </div>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Esperienze Siciliane - Tutti i diritti riservati</p>
-  </footer>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2025 Ricette Golose</p>
+</footer>
+
+<script>
+// Carica le ricette da un file JSON
+async function loadRecipes() {
+    try {
+        const response = await fetch('recipes.json');
+        const data = await response.json();
+
+        const indexList = document.getElementById('index-list');
+        const dolciRecipes = document.getElementById('dolci-recipes');
+        const salateRecipes = document.getElementById('salate-recipes');
+
+        // Popola l'indice
+        data.recipes.forEach(recipe => {
+            const li = document.createElement('li');
+            li.innerHTML = `<a href="#${recipe.id}">${recipe.name}</a>`;
+            indexList.appendChild(li);
+
+            // Popola le ricette dolci o salate
+            const recipeDiv = document.createElement('div');
+            recipeDiv.id = recipe.id;
+            recipeDiv.classList.add('recipe');
+            recipeDiv.innerHTML = `
+                <h2>${recipe.name}</h2>
+                <img src="${recipe.image}" alt="${recipe.name}">
+                
+                <div class="recipe-details">
+                    <p><strong>Difficoltà:</strong> ${recipe.difficulty}</p>
+                    <p><strong>Costo:</strong> ${recipe.cost}</p>
+                    <p><strong>Tempo di preparazione:</strong> ${recipe.preparation_time}</p>
+                    <p><strong>Tempo di riposo:</strong> ${recipe.rest_time}</p>
+                    <p><strong>Tempo di cottura:</strong> ${recipe.cooking_time}</p>
+                    <p><strong>Porzioni:</strong> ${recipe.servings}</p>
+                    <p><strong>Metodo di cottura:</strong> ${recipe.cooking_method}</p>
+                    <p><strong>Cucina:</strong> ${recipe.cuisine}</p>
+                </div>
+
+                <h3>Ingredienti:</h3>
+                <ul>
+                    ${recipe.ingredients.map(ingredient => `<li>${ingredient.quantity} ${ingredient.name}</li>`).join('')}
+                </ul>
+                
+                <h3>Preparazione:</h3>
+                <p>${recipe.instructions}</p>
+            `;
+
+            if (recipe.type === 'dolce') {
+                dolciRecipes.appendChild(recipeDiv);
+            } else {
+                salateRecipes.appendChild(recipeDiv);
+            }
+        });
+    } catch (error) {
+        console.error('Errore nel caricare le ricette:', error);
+    }
+}
+
+// Carica le ricette quando la pagina è pronta
+loadRecipes();
+</script>
+
 </body>
 </html>
